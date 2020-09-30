@@ -6,7 +6,7 @@ row_index = 0
     element = 0 
     while element < src[row_index].count do
       if src[row_index][element].class == String
-      phrase += src[row_index][element]
+      phrase += src[row_index][element] 
       end 
       element += 1 
     end
