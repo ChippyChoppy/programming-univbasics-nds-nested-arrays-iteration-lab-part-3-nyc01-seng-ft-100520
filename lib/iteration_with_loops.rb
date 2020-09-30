@@ -5,7 +5,7 @@ row_index = 0
   
   while row_index < src.count do
     element = 0 
-    array_string = src[row_index][""]
+    array_string = src[row_index]
     while element < src[row_index].count do
       if src[row_index][element] = array_string
       array_string = src[row_index][element]
